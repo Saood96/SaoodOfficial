@@ -21,7 +21,7 @@ API_HASH = environ.get("API_HASH", "b62f8b4fd01a8d1f66f42c43eec37979")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '20947165').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "ZsOfficial_File_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
